@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+:root {
+    --primary :#90e0ef;
+}
+*{
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding:1rem;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url("/styles/images/doge.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+
+
+}
+.main-nav{
+    background-color: var(--primary);
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    
+}
+
+#navbar{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+h1{
+    color: white;
+}
+#btn-translate{
+    background-color: var(--primary);
+    border-radius: 12px;
+    border-color: rgb(28, 67, 104);
+    box-shadow: 0 0 5px rgb(35, 35, 155);
+    margin-top: 50px;
+    margin-left: 25%;
+    text-align: center;
+    color: white;
+
+}
+#translate-text{
+    color: white;
+}
+
+#txt-input{
+    
+    width: 600px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    margin-left: 25%;
+
+    
+    
+}
+
+ #output {
+        width: 600px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        padding: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        box-shadow:0 0 5px black;
+        color:black;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: lighter;
+        margin-left: 25%;
+
+    }
+
+#footer-text{
+    text-align: center;
+    color: white;
+    
+}
+
+
